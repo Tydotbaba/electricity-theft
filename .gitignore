@@ -1,2 +1,4 @@
-/static_in_env
-/staticfiles
+
+staticfiles
+.env
+db.sqlite3

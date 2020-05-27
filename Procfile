@@ -1,0 +1,1 @@
+ web: gunicorn electricity_theft.wsgi --log-file -
