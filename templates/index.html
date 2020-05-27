@@ -22,111 +22,75 @@
 	<link rel="stylesheet" type="text/css" href="{% static 'css/util.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
 <!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!--===============================================================================================-->
 </head>
 <body>
 
 	<div class="limiter">
 		<div class="container-table100">
 			<div class="">
-				<h1>Electricity Theft</h1>
+				<h1 class="display-md-1 font-weight-bold">
+					<u>Electricity Theft</u>
+				</h1>
 			</div>
-			<div class="wrap-table100">
-				<div class="table100 ver2 m-b-110">
-					<table data-vertable="ver2">
-						<thead>
-							<tr class="row100 head">
-								<th class="column100 column1" data-column="column1">S/No</th>
-								<th class="column100 column2" data-column="column2">Date</th>
-								<th class="column100 column3" data-column="column3">Time</th>
-								<th class="column100 column4" data-column="column4">Cur1</th>
-								<th class="column100 column5" data-column="column5">Cur2</th>
-								<th class="column100 column6" data-column="column6">Total</th>
-								<th class="column100 column7" data-column="column7">Source</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Lawrence Scott</td>
-								<td class="column100 column2" data-column="column2">8:00 AM</td>
-								<td class="column100 column3" data-column="column3">--</td>
-								<td class="column100 column5" data-column="column5">8:00 AM</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">5:00 PM</td>
-								<td class="column100 column8" data-column="column8">8:00 AM</td>
-							</tr>
+			<div class="table100 ver2 m-b-100">
+				<table class="w-100">
+					<thead>
+						<tr class="row100 head ">
+							<th class="column1 text-center" data-column="column1">S/No</th>
+							<th class="column2" data-column="column2">Date</th>
+							<th class="column3" data-column="column3">Time</th>
+							<th class="column4" data-column="column4">Cur1 (A)</th>
+							<th class="column5" data-column="column5">Cur2 (A)</th>
+							<th class="column6" data-column="column6">Total</th>
+							<th class="column7" data-column="column7">Source</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="row100">
+							<td class="column1 text-center" data-column="column1">4</td>
+							<td class="column2 text-center" data-column="column2">20/05/2020</td>
+							<td class="column3 text-center" data-column="column3">08:50:05</td>
+							<td class="column5 text-center" data-column="column5">1.05</td>
+							<td class="column6 text-center" data-column="column6">2.03</td>
+							<td class="column7 text-center" data-column="column7">3.08</td>
+							<td class="column8 text-center" data-column="column8">3.08</td>
+						</tr>
 
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Jane Me
-								<td class="column100 column3" data-column="column3">5:00 PM</td>
-								<td class="column100 column4" data-column="column4">5:00 PM</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">9:00 AM</td>
-								<td class="column100 column7" data-column="column7">--</td>
-								<td class="column100 column8" data-column="column8">--</td>
-							</tr>
+						<tr class="row100">
+							<td class="column1 text-center" data-column="column1">3</td>
+							<td class="column2" data-column="column2">20/05/2020</td>
+							<td class="column3" data-column="column3">08:50:05</td>
+							<td class="column5" data-column="column5">1.05</td>
+							<td class="column6" data-column="column6">2.03</td>
+							<td class="column7" data-column="column7">3.08</td>
+							<td class="column8" data-column="column8">3.08</td>
+						</tr>
 
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Billy Mitchell</td>
-								<td class="column100 column2" data-column="column2">9:00 AM
-								<td class="column100 column4" data-column="column4">--</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">2:00 PM</td>
-								<td class="column100 column8" data-column="column8">8:00 AM</td>
-							</tr>
+						<tr class="row100">
+							<td class="column1 text-center" data-column="column1">2</td>
+							<td class="column2" data-column="column2">20/05/2020</td>
+							<td class="column3" data-column="column3">08:50:05</td>
+							<td class="column5" data-column="column5">1.05</td>
+							<td class="column6" data-column="column6">2.03</td>
+							<td class="column7" data-column="column7">3.08</td>
+							<td class="column8" data-column="column8">3.08</td>
+						</tr>
 
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Beverly
-								<td class="column100 column3" data-column="column3">5:00 PM</td>
-								<td class="column100 column4" data-column="column4">5:00 PM</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">9:00 AM</td>
-								<td class="column100 column7" data-column="column7">--</td>
-								<td class="column100 column8" data-column="column8">--</td>
-							</tr>
+						<tr class="row100">
+							<td class="column1 text-center" data-column="column1">1</td>
+							<td class="column2" data-column="column2">20/05/2020</td>
+							<td class="column3" data-column="column3">08:50:05</td>
+							<td class="column5" data-column="column5">1.05</td>
+							<td class="column6" data-column="column6">2.03</td>
+							<td class="column7" data-column="column7">3.08</td>
+							<td class="column8" data-column="column8">3.08</td>
+						</tr>
 
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Tiffany Wade</td>
-								<td class="column100 column2" data-column="column2">8:00 AM
-								<td class="column100 column4" data-column="column4">--</td>
-								<td class="column100 column5" data-column="column5">8:00 AM</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">5:00 PM</td>
-								<td class="column100 column8" data-column="column8">8:00 AM</td>
-							</tr>
-
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Sean Ad
-								<td class="column100 column3" data-column="column3">5:00 PM</td>
-								<td class="column100 column4" data-column="column4">5:00 PM</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">9:00 AM</td>
-								<td class="column100 column7" data-column="column7">--</td>
-								<td class="column100 column8" data-column="column8">--</td>
-							</tr>
-
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Rachel Simpson</td>
-								<td class="column100 column2" data-column="column2">9:00 AM</td>
-								<td class="column100 column3" data-column="column3">--</td>
-								<td class="column100 column5" data-column="column5">--</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">2:00 PM</td>
-								<td class="column100 column8" data-column="column8">8:00 AM</td>
-							</tr>
-
-							<tr class="row100">
-								<td class="column100 column1" data-column="column1">Mark Salazar</td>
-								<td class="column100 column2" data-column="column2">8:00 AM</td>
-								<td class="column100 column3" data-column="column3">--</td>
-								<td class="column100 column5" data-column="column5">8:00 AM</td>
-								<td class="column100 column6" data-column="column6">--</td>
-								<td class="column100 column7" data-column="column7">5:00 PM</td>
-								<td class="column100 column8" data-column="column8">8:00 AM</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div>
