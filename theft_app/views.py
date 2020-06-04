@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
+from .models import TheftData
+
 # Create your views here.
 
 
@@ -21,4 +23,10 @@ def index(request):
 	# 	}
 	# except IndexError:
 	# 	raise Http404('<h1>Page not found</h1>')
-	return render(request, 'index.html', {})
+	theft_data = TheftData.objects.all().order_by('time')[::-1]
+
+	context = {
+		'theft_data': theft_data,
+
+	}
+	return render(request, 'index.html', context)

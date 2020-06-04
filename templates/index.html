@@ -16,8 +16,9 @@
 				<u>Electricity Theft</u>
 			</h1>
 		</div>
-		<div class="w-75 mx-sm-auto">
-			<table class="table table-striped table-sm">
+		<div class="w-75 mx-auto">
+			{% if theft_data %}
+				<table class="table table-striped table-sm">
 					<thead>
 						<tr class="bg-success text-white head ">
 							<th class="column1" >S/No</th>
@@ -25,52 +26,32 @@
 							<th class="column3" >Time</th>
 							<th class="column4" >Cur1 (A)</th>
 							<th class="column5" >Cur2 (A)</th>
-							<th class="column6" >Total</th>
-							<th class="column7" >Source</th>
+							<th class="column6" >Total (A)</th>
+							<th class="column7" >Source (A)</th>
+							<th class="column8" >Difference (A)</th>
 						</tr>
+					</thead>
 					<tbody>
-						<tr class="bg-dark text-white">
-							<td class="column1" >4</td>
-							<td class="column2" >20/05/2020</td>
-							<td class="column3" >08:50:05</td>
-							<td class="column5" >1.05</td>
-							<td class="column6" >2.03</td>
-							<td class="column7" >3.08</td>
-							<td class="column8" >3.08</td>
-						</tr>
-
-						<tr class="bg-info text-white">
-							<td class="column1" >3</td>
-							<td class="column2" >20/05/2020</td>
-							<td class="column3" >08:50:05</td>
-							<td class="column5" >1.05</td>
-							<td class="column6" >2.03</td>
-							<td class="column7" >3.08</td>
-							<td class="column8" >3.08</td>
-						</tr>
-
-						<tr class="bg-dark text-white">
-							<td class="column1" >2</td>
-							<td class="column2" >20/05/2020</td>
-							<td class="column3" >08:50:05</td>
-							<td class="column5" >1.05</td>
-							<td class="column6" >2.03</td>
-							<td class="column7" >3.08</td>
-							<td class="column8" >3.08</td>
-						</tr>
-
-						<tr class="bg-info text-white">
-							<td class="column1" >1</td>
-							<td class="column2" >20/05/2020</td>
-							<td class="column3" >08:50:05</td>
-							<td class="column5" >1.05</td>
-							<td class="column6" >2.03</td>
-							<td class="column7" >3.08</td>
-							<td class="column8" >3.08</td>
-						</tr>
-
+						{% for item in theft_data %}
+							<tr class="{% cycle 'bg-dark' 'bg-info' %} text-white">
+								<td class="column1" >{{item.id}}</td>
+								<td class="column2" >{{item.date}}</td>
+								<td class="column3" >{{item.time}}</td>
+								<td class="column4" >{{item.current1}}</td>
+								<td class="column5" >{{item.current2}}</td>
+								<td class="column6" >{{item.total}}</td>
+								<td class="column7" >{{item.source}}</td>
+								<td class="column8" >{{item.difference}}</td>
+							</tr>
+						{% endfor %}
 					</tbody>
-			</table>
+				</table>
+			{% else %}
+				<div class="alert alert-warning text-center p-5 mt-5 mx-auto">
+					<p class="display-4">Sorry, There is no data to show for now.</p>
+					<p class="display-4">Please check back later.</p>
+				</div>
+			{% endif %}
 		</div>
 	</div>
 
