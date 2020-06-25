@@ -1,0 +1,10 @@
+Project Title: Electricity Theft
+Project Owner: Matthew UniAbuja
+Email: 	omofabregas@yahoo.com
+Phone Number: 09012373419
+
+
+
+
+Design Reference:
+	https://www.electronicshub.org/non-inverting-operational-amplifiers/#Introduction
