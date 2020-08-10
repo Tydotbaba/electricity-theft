@@ -1,5 +1,10 @@
 from django.db import models
 
+# signal imports
+from django.db.models.signals import post_save
+from django.dispatch import receiver
+
+
 # Create your models here.
 
 
@@ -26,3 +31,35 @@ class TheftData(models.Model):
 	source = models.FloatField()
 	difference = models.FloatField()
 		
+
+
+class Source(models.Model):
+	"""docstring for Source"""
+	source = models.FloatField()
+		
+class Cur1(models.Model):
+	"""docstring for Cur1"""
+	cur1 = models.FloatField()
+
+class Cur2(models.Model):
+	"""docstring for Cur2"""
+	cur2 = models.FloatField()
+
+
+
+
+# test data model
+class SourceDataModel(models.Model):
+	"""docstring for SourceDataModel"""
+	source = models.FloatField()
+	datetime = models.DateTimeField()
+		
+class Cur1DataModel(models.Model):
+	"""docstring for Cur1DataModel"""
+	cur1 = models.FloatField()
+	datetime = models.DateTimeField()
+
+class Cur2DataModel(models.Model):
+	"""docstring for Cur2DataModel"""
+	cur2 = models.FloatField()
+	datetime = models.DateTimeField()

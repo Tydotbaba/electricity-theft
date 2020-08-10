@@ -1,0 +1,60 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Users/Temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc.exe 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags:  
+
+The output was:
+1
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find crt1-sim.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find _vectors.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lsim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhandlers-sim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhal
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/Temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++.exe 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags:  
+
+The output was:
+1
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find crt1-sim.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find _vectors.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lsim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhandlers-sim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhal
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Users/Temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc.exe 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags:  
+
+The output was:
+1
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find crt1-sim.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find _vectors.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lsim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhandlers-sim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhal
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/Temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++.exe 
+Build flags: -mlongcalls;-Wno-frame-address
+Id flags:  
+
+The output was:
+1
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find crt1-sim.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find _vectors.o: No such file or directory
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lsim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhandlers-sim
+c:/users/temitayo/.espressif/tools/xtensa-lx106-elf-win32-1.22.0-100-ge567ec7-5.2.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/5.2.0/../../../../xtensa-lx106-elf/bin/ld.exe: cannot find -lhal
+collect2.exe: error: ld returned 1 exit status
+
+
