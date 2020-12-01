@@ -3,7 +3,7 @@
 # project subdirectory.
 #
 
-PROJECT_NAME := wifi_station
+PROJECT_NAME := electricity_theft
 
 include $(IDF_PATH)/make/project.mk
 

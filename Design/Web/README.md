@@ -5,7 +5,9 @@
 
 ## Function/Purpose
 
-This application is built with Django.
+This application was built with Python/Django.
+Django version 3 has been used.
+
 It performs such operations as:
 * serves the UI frontend with the theft table.
 * recieve incoming current data from the ESP8266 Wifi device
@@ -15,3 +17,4 @@ It performs such operations as:
 
 ## Setup
 
+The project is hosted online. See it [here](https://electricity-theft.herokuapp.com/)

@@ -4,18 +4,37 @@
 
 ## Setup
 
+This firmware was developed using the ESP Integrated Development Framework (IDF) and runs on the ESP8266 MCU. 
 
-### Configure the project
+ESP IDF version 4.2 has been used.
 
-```
-idf.py menuconfig
-```
+The ESP8266 is a MCU with Wi-Fi module onboard. It is a low-cost Wi-Fi microchip, with a full TCP/IP stack and microcontroller capability, produced by Espressif Systems in Shanghai, China. 
 
-* Set serial port under Serial Flasher Options.
 
-* Set WiFi SSID and WiFi Password and Maximum retry under Example Configuration Options.
 
-### Build and Flash
+## Bill of Coponents
+
+The major components used are listed below;
+- i-Snail-VC-100 Phidgets 100Amp AC Current Sensor 
+![isnail](../../../isnail.jpg)
+- ESP8266 Nodemcu v3 Wi-Fi Microcontroller
+![esp8266](https://cdn.antratek.nl/media/product/5d4/nodemcu-v2-lua-based-esp8266-development-kit-113990105-42d.jpg)
+- 3.3VDC 2A power supply
+- Others are discrete components like capacitors, diodes, resistors, transistors, etc.
+
+## Configure the project
+
+1. Get the ESP IDF development toolchain from [here]()
+1. cd into this parent directory and run
+	```
+	idf.py menuconfig
+	```
+
+	* Set serial port under Serial Flasher Options.
+
+	* Set WiFi SSID and WiFi Password and Maximum retry under Example Configuration Options.
+
+## Build and Flash
 
 Build the project and flash it to the board, then run monitor tool to view serial output:
 
@@ -23,7 +42,7 @@ Build the project and flash it to the board, then run monitor tool to view seria
 idf.py -p PORT flash monitor
 ```
 
-(To exit the serial monitor, type ``Ctrl-]``.)
+(To exit the serial monitor, type ``ctrl-c``.)
 
 See the Getting Started Guide for full steps to configure and use ESP-IDF to build projects.
 
