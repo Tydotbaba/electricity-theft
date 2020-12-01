@@ -16,7 +16,7 @@ The ESP8266 is a MCU with Wi-Fi module onboard. It is a low-cost Wi-Fi microchip
 
 The major components used are listed below;
 - i-Snail-VC-100 Phidgets 100Amp AC Current Sensor 
-![isnail](../../../isnail.jpg)
+![isnail](../../../../isnail.jpg)
 - ESP8266 Nodemcu v3 Wi-Fi Microcontroller
 ![esp8266](https://cdn.antratek.nl/media/product/5d4/nodemcu-v2-lua-based-esp8266-development-kit-113990105-42d.jpg)
 - 3.3VDC 2A power supply
