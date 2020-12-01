@@ -10,10 +10,13 @@ We want to know at what point electricity is been stolen by using Kirchoff's cur
 The following diagrams explains our approach. 
 
 ![first](first.png)
+
+
+
 ![second](second.png)
 
 
-See the proposal [document](/Report/Proposal/Proposal Document.docx) for more information.
+See the proposal [document]("Report/Proposal/Proposal Document.docx") for more information.
 
 
 ## Development Tools and Programming Languages Used
