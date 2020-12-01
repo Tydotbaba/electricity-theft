@@ -33,7 +33,7 @@ See the proposal [document]("Report/Proposal/Proposal Document.docx") for more i
 ## Deliverables:
 
 In the end, the follwoings were delivered:
-* A hardware device that measure AC load current in the range of 100A
+* Three hardware devices that measure AC load current in the range of 100A
 * A web app that is be accessible on any browser.
 
 
